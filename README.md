@@ -6,6 +6,7 @@
 Uma solução open-source para criação de um **Computador de Bordo Inteligente** aplicado ao Chevrolet Astra 2.0 8V (com suporte adaptável a outros veículos injetados). 
 
 O projeto consiste no firmware embarcado para **ESP32** (desenvolvido em C++/Arduino Framework) que realiza a leitura de sensores do veículo em tempo real via interrupções de hardware e ADC, processa métricas de consumo/velocidade/autonomia e transmite os dados via **Bluetooth Classic (SPP)** em formato JSON para um **Aplicativo Mobile em React Native**.
+https://github.com/luksabri/Astra-Trip-Computer-React-Native-ESP32-
 
 ---
 
