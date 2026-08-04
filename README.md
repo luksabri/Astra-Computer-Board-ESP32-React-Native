@@ -42,3 +42,15 @@ O projeto consiste no firmware embarcado para **ESP32** (desenvolvido em C++/Ard
     ┌──────────────────────────┐
     │  App Mobile React Native │  ── Exibição de Telemetria e Comandos
     └──────────────────────────┘
+```
+## ⚙️ Parâmetros de Calibração (Firmware)
+**Se você estiver aplicando este projeto em outro veículo com especificações diferentes, ajuste as seguintes constantes no arquivo C++ do ESP32:**
+
+```bash
+C++
+const int NUMERO_BICOS = 4;             // Número de cilindros/bicos
+const float VAZAO_BICO_ML_MS = 0.0035;  // Vazão individual (mL/ms)
+const float PULSOS_VSS_POR_METRO = 8.0; // Razão de pulsos/metro do VSS
+bash`
+const float CAPACIDADE_TANQUE_LITROS = 57.0; // Capacidade máxima do tanque
+```
