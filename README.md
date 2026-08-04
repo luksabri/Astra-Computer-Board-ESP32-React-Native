@@ -1,5 +1,7 @@
-# Astra-Computer-Board-ESP32-React-Native
 # 🚗 Astra Computer Board — ESP32 + React Native
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![ESP32](https://img.shields.io/badge/Hardware-ESP32-green.svg)
+![Bluetooth](https://img.shields.io/badge/Bluetooth-Classic%20(SPP)-0082fc.svg)
 
 Uma solução open-source para criação de um **Computador de Bordo Inteligente** aplicado ao Chevrolet Astra 2.0 8V (com suporte adaptável a outros veículos injetados). 
 
